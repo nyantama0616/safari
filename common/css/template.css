@@ -1,0 +1,73 @@
+/* 全ページ共通のデザイン */
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+}
+
+header, footer {
+    width: 100%;
+    position: absolute;
+}
+
+header h2 {
+    margin-left: 10px;
+    text-align: left;
+}
+
+header h2 a {
+    color: white;
+}
+
+.main {
+    width: 98%;
+    min-width: 1200px;
+    height: 100%;
+    background-color: rgb(221, 228, 221);
+    display: flex;
+    justify-content: space-around;
+}
+
+.left, .right {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(162, 181, 174);
+}
+
+.center {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(184, 219, 206);
+}
+
+footer {
+    height: 30px;
+    background-color: rgb(142, 138, 138);
+    bottom: 0;
+}
+
+footer h3 {
+    margin: 0;
+    color: rgb(219, 215, 215);
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
